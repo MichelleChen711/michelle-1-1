@@ -92,9 +92,6 @@ importers:
         specifier: 1.9.1
         version: 1.9.1
     devDependencies:
-      '@acme/api':
-        specifier: '*'
-        version: link:../../packages/api
       '@acme/eslint-config':
         specifier: '*'
         version: link:../../packages/config/eslint
@@ -113,6 +110,9 @@ importers:
       '@expo/config-plugins':
         specifier: ^6.0.1
         version: 6.0.1
+      '@michelle-1-1/api':
+        specifier: '*'
+        version: link:../../packages/api
       '@types/babel__core':
         specifier: ^7.20.0
         version: 7.20.0
@@ -140,9 +140,6 @@ importers:
 
   apps/nextjs:
     dependencies:
-      '@acme/api':
-        specifier: ^0.1.0
-        version: link:../../packages/api
       '@acme/auth':
         specifier: ^0.1.0
         version: link:../../packages/auth
@@ -152,6 +149,9 @@ importers:
       '@acme/tailwind-config':
         specifier: ^0.1.0
         version: link:../../packages/config/tailwind
+      '@michelle-1-1/api':
+        specifier: '*'
+        version: link:../../packages/api
       '@t3-oss/env-nextjs':
         specifier: ^0.2.1
         version: 0.2.1(zod@3.21.4)
